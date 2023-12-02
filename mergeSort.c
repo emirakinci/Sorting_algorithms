@@ -35,8 +35,6 @@ int *merge(int *v1, int *v2, int *v3, int n)
             index_2++;
         }
     }
-    // In our example, after the insertion of 10 inside v3, the main while loop terminates b.c. of index_2 > n
-    // Thus, we implement the following 2 while loops in order to insert the possible remaining values from v1
     while(index_1 < n)
     {
         for(int j = index_1+1; j < n; j++)
